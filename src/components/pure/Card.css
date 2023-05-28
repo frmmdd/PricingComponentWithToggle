@@ -1,0 +1,74 @@
+@import url("../../App.css");
+
+.card {
+  width: 17em;
+  display: grid;
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 2em;
+  border-radius: 0.65em;
+}
+
+.card-price {
+  font-size: 4em;
+  position: relative;
+  margin: 0.20em;
+}
+
+.card-price:before {
+  content: "$";
+  font-size: 0.60em;
+  display: inline-block;
+  vertical-align: middle;
+  height: 1.5em;
+  line-height: normal;
+}
+
+.card-users,
+.card-size,
+.card-send,
+.card-more {
+  border-top: 1px solid var(--clr--light-grayish-blue);
+}
+
+.card-plan,
+.card-users,
+.card-size,
+.card-send,
+.card-more {
+  font-size: 1.1em;
+  padding: 0.75em;
+  color: var(--clr--light-grayish-blue);
+}
+
+.card-more {
+  all: unset;
+  text-transform: uppercase;
+  background: linear-gradient(var(--bg-linear-gradient));
+  padding: 1em;
+  border-radius: 0.45em;
+  margin: 0.20em;
+  color: white;
+}
+
+
+.card:nth-child(2) {
+  background: linear-gradient(var(--bg-linear-gradient));
+}
+
+
+.card:nth-child(2)
+.card-more {
+  background: white;
+  color: black;
+}
+
+.card:nth-child(2) > * {
+  color: white;
+
+}
+  
+@media (min-width: 375px) {
+  scale: 1.1;
+}

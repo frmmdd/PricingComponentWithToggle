@@ -1,0 +1,19 @@
+:root {
+  --bg-very-light-grayish-blue: hsl(240, 78%, 98%);
+  --bg-linear-gradient: hsl(236, 72%, 79%), hsl(237, 63%, 64%);
+  --clr--light-grayish-blue: hsl(234, 14%, 74%);
+  --clr-grayish-blue: hsl(233, 13%, 49%);
+  --clr-dark-drayish-blue: hsl(232, 13%, 33%);
+}
+
+
+body {
+  background: var(--bg-very-light-grayish-blue);
+  font-size: 0.94em;
+  font-family: 'Montserrat', sans-serif, system-ui;
+}
+
+.app {
+  display: grid;
+  justify-items: center;
+}

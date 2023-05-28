@@ -1,0 +1,12 @@
+.listCard {
+  display: grid;
+  gap: 0.95em;
+  margin: 8em 4em;
+}
+
+@media (min-width: 375px) {
+  .listCard {
+    display: flex;
+    gap: 0;
+  }
+}
